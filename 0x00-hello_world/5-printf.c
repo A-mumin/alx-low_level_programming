@@ -2,7 +2,7 @@
 /**
  *main - entry point
  *
- *fter execution return - e renurns the function
+ *return - return 0 after execution renurns the function
  */
 int main(void)
 {
