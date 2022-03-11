@@ -1,11 +1,8 @@
-#include <stdio.h>
-/**
- * main - entry point
- *
- * Returns: 0 after printing the function 
+#include <stdio>
+/**comment 
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0)
+	puts("\"Programming is like buildinga multilingual puzzle");
+	return (0);
 }
