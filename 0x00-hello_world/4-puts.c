@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * comment
+ * main - function comment
  * function
  * g
  * g
