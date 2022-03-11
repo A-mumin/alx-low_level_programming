@@ -1,18 +1,16 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Size function 
- * return - Return function to 0
+ * Size function
+ * Return - Return function to 0
  */
 int main(void)
 {
-	int i;
-	double d;
-	char c;
-
-	printf("The size of an int is: %lu.\n", (unsigned long)sizeof(i));
-	printf("The size of an double is: %lu.\n", (unsigned long)sizeof(d));
-	printf("The size of an c is: %lu.\n", (unsigned long)sizeof(c));
+	printf("Size of a char: %d byte(s)\n", sizeof(char));
+	printf("Size of an int: %d byte(s)\n", sizeof(int));
+	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %d byte(s)\n",sizeof(long long int));
+	printf("Size of a float: %d byte(s)\n", sizeof(float));
 
 	return(0);
 }
