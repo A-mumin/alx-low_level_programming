@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  *main - entry point
- *
- *return - return 0 after execution renurns the function
+ *My hello, printf task
+ *Return: return 0 after execution renurns the function
  */
 int main(void)
 {
