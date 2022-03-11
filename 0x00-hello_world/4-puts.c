@@ -1,5 +1,8 @@
 #include <stdio.h>
-/**comment 
+/**comment
+ * function
+ * g
+ * g
  */
 int main(void)
 {
