@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
- *
- * main - Entry pooint value zero (0)
+ * printf - Entry pooint value zero (0)
  *
  * Return: Always zero (success)
  */
-int main(void)
+int printf(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
