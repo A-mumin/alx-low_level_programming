@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ *
  * main - Entry pooint value zero (0)
  *
  * return: Always zero (success)
