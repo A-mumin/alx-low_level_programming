@@ -11,8 +11,7 @@ int main(void)
 	for (d = 48; d <= 57; d++)
 	{
 		putchar(d);
-	`:wq
-		if (d == 57)
+	if (d == 57)
 		{
 break;
 		}
