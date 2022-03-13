@@ -12,7 +12,7 @@ int main(void)
 	{
 		if (d == 57)
 		{
-break:
+break;:
 		}
 
 		putchar (',');
