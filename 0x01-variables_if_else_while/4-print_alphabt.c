@@ -7,7 +7,7 @@
 int main(void)
 {
 	char lowercase;
-		for(lowercase = 'a'; lowercase <= 'z'; lowercase++)
+		for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 		{
 			if (lowercase == 'q')
 				continue;
