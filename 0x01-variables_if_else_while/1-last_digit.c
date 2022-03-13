@@ -6,7 +6,7 @@
  *
  * Return: Always zero (successful)
  */
-int main (void)
+int main(void)
 {
 	int n;
 
@@ -21,7 +21,7 @@ int main (void)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n);
 	}
-	if ((n = 0))
+	if ((n == 0))
 	{
 		printf("Last digit of %d is %d and is 0\n", n, n);
 	}
