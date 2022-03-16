@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * lowercase - check the code
+ * print_alphabet - check the code
  *
  * Return: Always zero 
  */
-int lowercase(void)
+void print_alphabet(void)
 {
 	char lc;
 
@@ -13,6 +13,4 @@ int lowercase(void)
 			_putchar(lc);
 		}
 		_putchar('\n');
-
-	return (0);
 }
