@@ -9,7 +9,7 @@ int _abs(int n)
 {
 	if (n < 0)
 	{
-		printf("-[%d]", n);
+		printf("(%d)*(-1)", n);
 	}
 	else
 	{
