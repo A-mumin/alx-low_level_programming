@@ -6,6 +6,7 @@
  */
 int fyi(char r)
 {
+char r
 	char putchar('_putchar');
 
 	return (0);
