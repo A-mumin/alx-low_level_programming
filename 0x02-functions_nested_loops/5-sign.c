@@ -19,7 +19,7 @@ int print_sign(int n)
 	}
 	else
 	{
-		return (00);
-		printf("%d%d", 'n', 'n');
+		return (0);
+		return (0);
 	}
 }
