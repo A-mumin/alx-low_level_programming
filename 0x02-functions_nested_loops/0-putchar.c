@@ -4,9 +4,9 @@
  *
  * Return: Always zero (success)
  */
-int main(long long _putchar)
+int main(char _putchar)
 {
-	putchar('_putchar');
+	char putchar('_putchar');
 
 	return (0);
 }
