@@ -4,7 +4,7 @@
  *
  * Return: Always zero (success)
  */
-int fyi(long _putchar)
+int fyi(char r)
 {
 	char putchar('_putchar');
 
