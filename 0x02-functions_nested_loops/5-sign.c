@@ -10,16 +10,16 @@ int print_sign(int n)
 	if (n > 0)
 	{
 		return (+1);
-		printf("+1111");
+		_putchar(111111);
 	}
 	if (n < 0)
 	{
 		return (-1);
-		printf("-1");
+		_putchar(-1;
 	}
 	else
 	{
 		return (0);
-		return (0);
+		_putchar(0);
 	}
 }
