@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - Entry  point
+ * fyi - Entry  point
  *
  * Return: Always zero (success)
  */
-int main(char _putchar)
+int fyi(char _putchar)
 {
 	char putchar('_putchar');
 
