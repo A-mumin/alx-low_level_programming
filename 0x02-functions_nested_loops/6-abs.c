@@ -2,12 +2,11 @@
 #include "main.h"
 /**
  * _abs - main function 
- *
+ *@n: numbers
  * Return: zero
  */
-int _abs(int)
+int _abs(int n)
 {
-	int n;
 	if (n < 0)
 	{
 		printf("-[%d]", n);
