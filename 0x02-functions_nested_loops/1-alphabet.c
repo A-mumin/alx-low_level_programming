@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - check the code
+ * lowercase - check the code
  *
  * Return: Always zero 
  */
-int main(void)
+int lowercase(void)
 {
 	char lc;
 
