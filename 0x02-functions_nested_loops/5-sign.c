@@ -9,14 +9,17 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
-		return (+1, printf("+1");
+		return (+1);
+		printf("+1111");
 	}
 	if (n < 0)
 	{
-		return (-1, printf("-1");
+		return (-1);
+		printf("-1");
 	}
 	else
 	{
-		return (0, printf("%d%d", 'n', 'n');
+		return (00);
+		printf("%d%d", 'n', 'n');
 	}
 }
