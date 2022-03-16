@@ -2,7 +2,7 @@
 /**
  * print_alphabet - check the code
  *
- * Return: Always zero 
+ * Return: Always zero
  */
 void print_alphabet(void)
 {
