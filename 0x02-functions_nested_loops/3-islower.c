@@ -4,17 +4,12 @@
  *
  * Return: 1 if c is lowercase otherwise zero
  */
-int _islower(int c)
+int _islower(int lc)
 {
-	char lc;
-
-	for (lc = 033; lc <= 127; lc++)
-	{
-		if (lc = 097; lc <= 122;)
+	if (lc >= 'a' && lc <= 'z')
 		{
 			return (1);
 		}
-		else
+	else
 			return(0);
-	}
 }
