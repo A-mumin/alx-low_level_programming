@@ -10,12 +10,12 @@ int print_sign(int n)
 	if (n > 0)
 	{
 		return (1);
-		printf ('+');
+		printf ("+");
 	}
 	if (n < 0)
 	{
-		return ('-1');
-		printf ('-');
+		return (-1);
+		printf ("-");
 	}
 	else 
 		return (0);
