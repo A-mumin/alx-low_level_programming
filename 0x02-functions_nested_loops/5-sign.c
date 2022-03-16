@@ -20,6 +20,6 @@ int print_sign(int n)
 	else
 	{
 		return (0);
-		printf("%d%d", nn);
+		printf("%d%d", n n);
 	}
 }
