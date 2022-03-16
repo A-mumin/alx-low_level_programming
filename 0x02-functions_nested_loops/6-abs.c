@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _abs - main function
- *@n: numbers
+ *@n: any integer number
  * Return: zero
  */
 int _abs(int n)
