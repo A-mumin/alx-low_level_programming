@@ -13,11 +13,11 @@ void print_alphabet_x10(void)
 	{
 		for (lc = 'a'; lc <= 'z'; lc++)
 		{
-			putchar(lc,);
+			_putchar(lc);
 
 		}
 
-	putchar('\n');
+	_putchar('\n');
 
 	}
 }
