@@ -13,11 +13,8 @@ void jack_bauer(void)
 
 	for (n = 48; n <= 57; n++)
 	{
-		_putchar (n);
-		break;
 		for (n = 50; n <= 90; n++)
 		{
-			_putchar (n);
 			for (n = 78; n <= 97; n++)
 			{
 				_putchar (n);
