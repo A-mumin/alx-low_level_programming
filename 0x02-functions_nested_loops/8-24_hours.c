@@ -7,17 +7,17 @@
  */
 void jack_bauer(void)
 {
-	int n;
+	int n, m, o, p;
 
 	_putchar (0);
 
 	for (n = 48; n <= 57; n++)
 	{
-		for (n = 50; n <= 90; n++)
+		for (m = 50; m <= 90; m++)
 		{
-			for (n = 78; n <= 97; n++)
+			for (o = 78; p <= 97; p++)
 			{
-				_putchar (n);
+				_putchar (mnop);
 				_putchar ('\n');
 			}
 		}
