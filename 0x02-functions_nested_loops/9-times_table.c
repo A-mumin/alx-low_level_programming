@@ -26,13 +26,6 @@ void times_table(void)
 				_putchar (' ');
 				_putchar (' ');
 			}
-			else if (x >= 10)
-			{
-				_putchar (',');
-				_putchar (' ');
-				_putchar (x / 10 + '0');
-				_putchar (x % 10 + '0');
-			}
 		}
 		_putchar ('\n');
 	}
