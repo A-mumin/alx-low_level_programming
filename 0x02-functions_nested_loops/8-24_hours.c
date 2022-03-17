@@ -17,7 +17,7 @@ void jack_bauer(void)
 		{
 			for (o = 78; p <= 97; p++)
 			{
-				_putchar (mnop);
+				_putchar ('m''n''o''p');
 				_putchar ('\n');
 			}
 		}
