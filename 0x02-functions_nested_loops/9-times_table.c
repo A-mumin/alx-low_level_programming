@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * times_table - The 9 times table 
+ * times_table - The 9 times table
  *
  * Return: zero
  */
@@ -21,7 +21,7 @@ void times_table(void)
 			}
 			else if (x <= 9)
 			{
-				_putchar (x);
+				_putchar (k + '0');
 				_putchar (',');
 				_putchar (' ');
 			}
