@@ -16,7 +16,7 @@ int main(void)
 
 /*
  * while (i < 10)
- *{
+ {
  * Infinite loop - No inc variable
  * putchar(i);
  }
