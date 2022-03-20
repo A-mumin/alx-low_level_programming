@@ -16,8 +16,10 @@ int main(void)
 	i = 0;
 /**
  * while loop
+ * {
  * causes the infinite
- * putchar(i)
+ * putchar(i);
+ * }
  */
 	printf("Infinite loop avoided! \\o/\n");
 
