@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _puts - function that prints a string 
@@ -10,10 +9,10 @@
 void _puts(char *str)
 {
 	int i;
-	
-	for (m = 0; str(i); i++)
+
+	for (i = 0; str[i]; i++)
 	{
 		_putchar (str[i]);
 	}
-	_putchar ('\n')
+	_putchar ('\n');
 }
