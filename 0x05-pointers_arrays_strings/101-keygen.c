@@ -4,12 +4,12 @@
 #include <time.h>
 
 /**
- * crackme - function that generate random valid passwords
+ * main - function that generate random valid passwords
  *
  * Return: an integer
  */
 
-int crackme(void)
+int main(void)
 {
 	int num;
 
