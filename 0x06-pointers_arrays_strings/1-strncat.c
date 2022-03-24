@@ -2,17 +2,18 @@
 
 /**
  * _strncat - append a string to another string but dont null-terminte if n bytes
- * @dest: destination string 
+ * @dest: destination string
  * @src: source string
  * @n: number of btyes
  * Return: destination string
  */
 
-char *_strncat(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0;
+	int i;
 	int j;
 
+	i = 0;
 	while (dest[i] != '\0')
 	{
 		i++;
