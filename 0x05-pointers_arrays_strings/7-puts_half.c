@@ -3,14 +3,14 @@
 /**
  * puts_half - fuction that prints half of a string
  * @str: string variable
- * Return: zero success 
+ * Return: zero success
  */
 
 void puts_half(char *str)
 {
 	int i = 0;
 	int ln;
-	
+
 	while (str[i] != '\0')
 	{
 		i++;
