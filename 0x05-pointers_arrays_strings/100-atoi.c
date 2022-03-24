@@ -5,7 +5,7 @@
  * Return: if is a number return 1 else return 0
  */
 
-int is_numical(unsigned int n)
+int is_numerical(unsigned int n)
 {
 	return (n >= '0' && n <= '9');
 }
@@ -30,7 +30,7 @@ int _atoi(char *s)
 		{
 			number = (s[i] - 48) + number * 10;
 			if (s[i + 1] == ' ')
-				break:
+				break;
 		}
 		else if (s[i] == '-')
 		{
