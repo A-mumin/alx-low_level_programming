@@ -18,7 +18,7 @@ void more_numbers(void)
 		{
 			if (result < 10)
 			{
-				b = result:
+				b = result;
 			}
 			else
 			{
