@@ -7,7 +7,7 @@
  * @Return: a pointer to the bytes in s that matches one in accept
  */
 
-char *strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
 
