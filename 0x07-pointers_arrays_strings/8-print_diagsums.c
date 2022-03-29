@@ -10,8 +10,8 @@
 
 void print_diagsums(int *a, int size)
 {
-	for (a = 0; a <= 10; a++)
+	for (size = 0; size <= 10; a++)
 	{
-	printf("%d %d", a * size, a);
+	printf("%d", size);
 	}
 }	
