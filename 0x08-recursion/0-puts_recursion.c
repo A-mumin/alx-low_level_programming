@@ -12,7 +12,8 @@ void _puts_recursion(char *s)
 
 	if (y == '\0')
 	{
-		return;
+		_putchar ('\n');
 	}
 	_putchar (y);
+	_puts_recursion(y);
 }
