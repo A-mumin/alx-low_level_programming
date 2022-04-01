@@ -1,12 +1,14 @@
-#include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
- * main - entry point 
+ * main - entry point
  *
  * @Return: always zero
  */
 
-int main(int agrc, char *argv[])
+int main(int agrc, char* argv[])
 {
-	return (argv[0]);
+	printf ("%s\n", argv[0]);
+	return (0);
 }
