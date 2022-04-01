@@ -8,5 +8,5 @@
 
 int main(int agrc, char* argv[])
 {
-	_putchar (argv[0]);
+	_putchar (*argv[0]);
 }
