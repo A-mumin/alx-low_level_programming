@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * mul - entry point
+ * main - entry point
  * @argc: arguiment count
  * @argv: argument array
  * @Return: always zero
