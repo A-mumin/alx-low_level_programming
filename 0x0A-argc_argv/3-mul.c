@@ -8,16 +8,21 @@
  * @Return: always zero
  */
 
-int mul(int x, int y)
+int main(int argc, char* argv[])
 {
-	int R;
-	
-	R = x * y;
-	printf("%d\n", R);
-	return (1);
-}
+	int a = atoi(argv[1]);
+	int b = atoi(argv[2]);
+	int Ans;
 
-int main()
-{
-	mul(2, 3);
+	if (argc == 3)
+	{
+	Ans = a * b;
+	printf ("%d", Ans);
+	}
+	else
+	{
+		printf ("Error");
+	}
+
+	return (1);
 }
