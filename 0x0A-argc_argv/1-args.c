@@ -10,7 +10,13 @@
 
 int main(int argc, char* argv[])
 {
-	printf("%d\n", argc);
-	printf("%s", argv[10]);
+	if (argc > 100)
+	{
+		printf ("%s\n", argv[10]);
+	}
+	else
+	{
+		printf("%d\n", argc - 1);
+	}
 	return (0);
 }
