@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
 	if (argc == 3)
 	{
 	Ans = a * b;
-	printf ("%d", Ans);
+	printf ("%d\n", Ans);
 	}
 	else
 	{
