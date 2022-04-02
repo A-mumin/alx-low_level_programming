@@ -1,5 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
+/**
+ * main - entry point
+ * @argc: argument count
+ * @argv: argument array
+ * @Return: returns zero
+ */
 
 int main(int argc, char* argv[])
 {
