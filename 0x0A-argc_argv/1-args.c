@@ -8,8 +8,9 @@
  * @Return: returns zero
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
 	printf("%d\n", argc);
+	printf("%s", argv[10]);
 	return (0);
 }
